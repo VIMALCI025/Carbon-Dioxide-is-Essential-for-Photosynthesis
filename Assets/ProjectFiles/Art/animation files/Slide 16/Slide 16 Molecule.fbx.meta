@@ -3,27 +3,7 @@ guid: 3ce408b0fa24da746b6067058f7cfde8
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Molecule_Set_1_M
-    second: {fileID: 2100000, guid: 6defd1759f03de344bbf4f0962d00a4d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Powers_M1
-    second: {fileID: 2100000, guid: 7c64b9c8e9feaa241b5bcefd6e2cf84a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 81bd95d3cdb3c7f40a66664f87138d79, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Molecule set 1_Molecule_Set_1_M_AlbedoTransparency
-    second: {fileID: 2800000, guid: 5d5f5f6c397ad2444ac655fc00a6ee4c, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,29 +1,9 @@
 fileFormatVersion: 2
 guid: a72601d1d827b3c43b08ef65a76f6c34
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: liquids
-    second: {fileID: 2100000, guid: 6b05481653eb83145a7ca94998627fad, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: red plastic1
-    second: {fileID: 2100000, guid: baa912e342e73b1488f0ae305e8acead, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: sticker_K
-    second: {fileID: 2100000, guid: 07802e7c17e78aa44aa53d401f1bcf0f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: test tube  glass1
-    second: {fileID: 2100000, guid: 268f58d792b54024faa98bcac7a22564, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -76,6 +56,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
