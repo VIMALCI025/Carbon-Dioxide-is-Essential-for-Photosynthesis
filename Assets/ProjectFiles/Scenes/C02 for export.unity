@@ -15474,8 +15474,12 @@ MonoBehaviour:
     pageText: Now let's keep the plant in the dark for around 48 hrs to destarch
       it.
     showDialogBox: 1
-    showAlternatePanels: 0
-    alternatePanels: []
+    showAlternatePanels: 1
+    alternatePanels:
+    - panel: {fileID: 1244550487}
+      stayInUpcomingPages: 0
+      enableOnce: 0
+      hasBeenEnabledOnce: 0
   - pageName: Page 5
     pageText: Now let's keep the plant in the dark for around 48 hrs to destarch
       it.
@@ -15486,13 +15490,27 @@ MonoBehaviour:
       stayInUpcomingPages: 0
       enableOnce: 0
       hasBeenEnabledOnce: 0
-  - pageName: Page 5
+  - pageName: Page 6
     pageText: Why do we use a destarched plant to conduct this experiment? Click
       on the highlighted leaf to find out.
     showDialogBox: 1
+    showAlternatePanels: 1
+    alternatePanels:
+    - panel: {fileID: 396460629}
+      stayInUpcomingPages: 0
+      enableOnce: 0
+      hasBeenEnabledOnce: 0
+    - panel: {fileID: 1244550487}
+      stayInUpcomingPages: 0
+      enableOnce: 0
+      hasBeenEnabledOnce: 0
+  - pageName: Page 7
+    pageText: For carrying out photosynthesis experiments, we need to be sure that
+      all traces of starch are removed
+    showDialogBox: 1
     showAlternatePanels: 0
     alternatePanels:
-    - panel: {fileID: 476846386}
+    - panel: {fileID: 396460629}
       stayInUpcomingPages: 0
       enableOnce: 0
       hasBeenEnabledOnce: 0
@@ -15722,7 +15740,7 @@ Transform:
   m_GameObject: {fileID: 1562320227}
   serializedVersion: 2
   m_LocalRotation: {x: -0.08671174, y: -0.056314066, z: 0.0049261027, w: -0.99462837}
-  m_LocalPosition: {x: -0.27, y: 1.281, z: -2.002}
+  m_LocalPosition: {x: -0.489, y: 1.196, z: -1.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15998,8 +16016,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630976384}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.08671174, y: -0.056314066, z: 0.0049261027, w: -0.99462837}
+  m_LocalPosition: {x: -0.438, y: 1.271, z: -1.925}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
