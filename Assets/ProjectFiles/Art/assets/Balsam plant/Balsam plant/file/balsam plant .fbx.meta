@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: ceac4b6c375705a46ae73d3329a6a9b1
+guid: 6c59bf1a9d0fe5843bc7a788b32b574a
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ba5c3d5695f3aea4c891c8424cbca63e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf
+    second: {fileID: 2100000, guid: 5210e7d158e0476429a14085baf40f1f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,9 +66,6 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

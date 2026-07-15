@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: c1115a64fd8f4864ba418d74e40f5067
+guid: 32ee3c5455ebb4d4bbd547b4653cce97
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: fed36a5ea5d358841a179e4e1a8a3135, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 89e6b7b35e4263940afaba060e753da6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,9 +66,6 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 59c2f8439b64a494aaff3066297301fd
+guid: 94100aebacd5aeb40bcf548d4aa352dc
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cork_M
+    second: {fileID: 2100000, guid: b443e7a8c0e5d254f889be932d51aaf2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,9 +61,6 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

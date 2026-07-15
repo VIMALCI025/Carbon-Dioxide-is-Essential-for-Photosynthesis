@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 74617bda68057fe4c8aadaca22803209
+guid: aa999c5a052f3084d8f858bab8de6d0e
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 448e205d44c1a5348895b2cc757acdd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: test tube  glass
+    second: {fileID: 2100000, guid: 3d5a4b1b603ca824f86bbd1ba51519f0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

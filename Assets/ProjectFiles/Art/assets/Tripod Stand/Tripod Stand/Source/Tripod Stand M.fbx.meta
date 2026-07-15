@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: fe9331c72555aca41aa9a7db59f1480a
+guid: 5aeff5cf6900a8b4c9948a6fd8bd3d5e
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tripod_Stand_M
+    second: {fileID: 2100000, guid: 6ae4d043463dc524693b1a4f2ac75bfe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,9 +61,6 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

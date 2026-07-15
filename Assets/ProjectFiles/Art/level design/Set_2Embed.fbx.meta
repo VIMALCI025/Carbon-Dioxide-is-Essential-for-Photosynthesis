@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 68d5edce0071bc544946e81ca53b176f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BalsamPlant
+    second: {fileID: 2100000, guid: 1bd7bc0a0e6e9ab4cbb1656c84c8cbeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BiologyTable
+    second: {fileID: 2100000, guid: be902513ae65ebe4a9381e0913b790e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BunsenBurner
+    second: {fileID: 2100000, guid: 8f268b792f650d14488f8669bc76d611, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color Change2
+    second: {fileID: 2100000, guid: 4cfdd51969765bf4a81769d05a93698d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cork_M1
+    second: {fileID: 2100000, guid: 76029d7b32666b642be7f7736d247601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 6ad4975a2ca663446875a9fc8af399d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PetriDish
+    second: {fileID: 2100000, guid: f6e97f245abeb234489db8fab18c1e1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant
+    second: {fileID: 2100000, guid: 9c79f309db966b34abf6e8798d872041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant Bottom1
+    second: {fileID: 2100000, guid: 44883dc1fb2b59347b9b764bcc10ce84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant Bottom3
+    second: {fileID: 2100000, guid: ba69bf25e7f8db24cb365536204a0cfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reading Text3
+    second: {fileID: 2100000, guid: 9758a2732ec9bea4eb2d68cf2068cdfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sticker_A1
+    second: {fileID: 2100000, guid: 59489142f5528b14ebe37f3330b98148, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TestTubeRack
+    second: {fileID: 2100000, guid: 0fd7e4e3624d7954ebf4f1bc6ead0d52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TesttubeStand
+    second: {fileID: 2100000, guid: 7de269d57b0d56e488da6af8db7e059f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TripodStand
+    second: {fileID: 2100000, guid: a38de4262180f68409cfec6052e02d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: balsam_leaf7
+    second: {fileID: 2100000, guid: 1bd7bc0a0e6e9ab4cbb1656c84c8cbeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 2e47d9a615b193e4f8bdf5afc351f716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab_beaker Glass100ML3
+    second: {fileID: 2100000, guid: 307a31cccf5e5114a8c210443e306298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 0abe9bfc3e95b0c408285f3255f0c518, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert6
+    second: {fileID: 2100000, guid: 0640d7ad377870a40908d438a2b0eb1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert7
+    second: {fileID: 2100000, guid: cc88567a366f73a47b8fbcd4dfc7a0f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: liquids2
+    second: {fileID: 2100000, guid: 1134c9706d9d6b642aeb5e471c9c7c44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: liquids3
+    second: {fileID: 2100000, guid: b14519be01ddac84287900f5293210a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong6
+    second: {fileID: 2100000, guid: 94bde51f8eb5f06439a6842caefece65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong7
+    second: {fileID: 2100000, guid: 6e10730a85ef55e4aa8f0a38d1a52631, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong8
+    second: {fileID: 2100000, guid: 8c3a6e6e17142b1428d321d68e4877cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong9
+    second: {fileID: 2100000, guid: 84ab0a64645241b40a5a9b2a0be5125c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red plastic2
+    second: {fileID: 2100000, guid: 916a5e38025f71641bb4c874823447ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sticker_K1
+    second: {fileID: 2100000, guid: fe8d6529062b1284e96e5e82de3778e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sticker_i1
+    second: {fileID: 2100000, guid: 206e296d4ed1a43469583455578c9c3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: test tube  glass
+    second: {fileID: 2100000, guid: b77b7b3a90d62c44d88b717e04f982ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: test tube  glass1
+    second: {fileID: 2100000, guid: a0e472750ef3a5c42a5b0c760c58802d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: test tube  glass3
+    second: {fileID: 2100000, guid: 49d979cd642923a40976c5f5c6b3d9f5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Biology Lab Table_Biology Table_AlbedoTransparency
+    second: {fileID: 2800000, guid: 14b91abb2ff5ba54e8098c81941099da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Biology Lab Table_Biology Table_Emission
+    second: {fileID: 2800000, guid: 0ee77c7e60659de4aa1bd2902b89be0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Biology Lab Table_Biology Table_MetallicSmoothness
+    second: {fileID: 2800000, guid: 5d6b0f3eaeb468646acbfb92c1293f59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Biology Lab Table_Biology Table_Normal
+    second: {fileID: 2800000, guid: 32d27078e8d0a594d9bfff511138aaf2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bunsen Burner_low_Bunsen Burner4K_AlbedoTransparency
+    second: {fileID: 2800000, guid: 7b245006565a9794da7b5eb983025a31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Green Leaf
+    second: {fileID: 2800000, guid: d9d8334eae65a9c44a97f9224a152730, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Leaf_Plane_Material.001_MetallicSmoothness
+    second: {fileID: 2800000, guid: f7d8aba2dafaa4e4b934eef49c2b646f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Leaf_Plane_Material.001_Normal
+    second: {fileID: 2800000, guid: 586c3d180e92c374daff074779ad0f31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plant_Pot_AlbedoTransparency
+    second: {fileID: 2800000, guid: a85c06907c7a02945a600c3890c8ceb7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plant_Pot_MetallicSmoothness
+    second: {fileID: 2800000, guid: 7c75b9ab6b121be4bbad5b7e31f56d94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plant_Pot_Normal
+    second: {fileID: 2800000, guid: 81f78ca78f15a8d41a4a7c33f11282f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tripod Stand M_Tripod_Stand_M_AlbedoTransparency
+    second: {fileID: 2800000, guid: 95bc2e67507852c4f8ebc725dfbd21cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tripod Stand M_Tripod_Stand_M_MetallicSmoothness
+    second: {fileID: 2800000, guid: ec5aca4a117a06441b5fb5eec770d6c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tripod Stand M_Tripod_Stand_M_Normal
+    second: {fileID: 2800000, guid: 2c23876819195854ea3db045b805a563, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: balsam plant 2_leaf 4k_AlbedoTransparency
+    second: {fileID: 2800000, guid: f54b10afac6481d46b1a5114aec8973f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: balsam plant 2_steam 4k_AlbedoTransparency
+    second: {fileID: 2800000, guid: 73b4cad47d7bfea479df760e9d34ac3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: balsam plant 2_steam 4k_MetallicSmoothness
+    second: {fileID: 2800000, guid: 4d8c9a6e51b7c6f4b9c4cce856b24646, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: balsam plant 2_steam 4k_Normal
+    second: {fileID: 2800000, guid: 91128948bddfda94ba885c991dd9bceb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: labotary stand_blinn2SG_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: e402af9d69629ed43a34b27d4795a3a9, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

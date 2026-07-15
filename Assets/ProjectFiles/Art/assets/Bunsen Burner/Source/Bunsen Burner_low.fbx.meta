@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: af914abf48e505443bd0161f26749aae
+guid: 038e995b3c36e144686bc26fc01c5b3b
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bunsen Burner
+    second: {fileID: 2100000, guid: bf7747eb3ebf0354e8a6b5e35d83ad39, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,9 +61,6 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

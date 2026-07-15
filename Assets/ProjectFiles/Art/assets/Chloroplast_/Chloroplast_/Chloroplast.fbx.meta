@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: e256d96727f69144aa7040af18b6b238
+guid: 5739e1378a3f53a44a6af86458822434
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chloroplast 1
+    second: {fileID: 2100000, guid: 854e7264458e5954a9b563c8e3f3ff5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chloroplast 2
+    second: {fileID: 2100000, guid: 188cd738e4c39a341b8705ebcdace8b7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -56,9 +66,6 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

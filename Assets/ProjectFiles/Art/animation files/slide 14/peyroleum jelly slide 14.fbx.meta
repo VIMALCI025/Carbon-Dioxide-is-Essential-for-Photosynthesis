@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 6e49c73be515f114f9c75a52a3984d60
+guid: 06a46126f9cfc3646b05ceeabe3bdd39
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 1eebdad46c399db45ae4e5b4aa5bda97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 03bfe29f906e9564d9f1605be6e15cfe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
