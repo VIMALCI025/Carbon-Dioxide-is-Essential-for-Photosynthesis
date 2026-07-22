@@ -48,6 +48,9 @@ public class DragAndCheckCollision : MonoBehaviour
 
     private void OnMouseDown()
     {
+        // Capture initial position on press so active animations won't break return target
+        startPosition = transform.position;
+
         isDragging = true;
         isReturning = false;
         collisionTriggered = false;
