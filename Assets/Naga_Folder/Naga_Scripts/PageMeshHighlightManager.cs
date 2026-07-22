@@ -18,18 +18,13 @@ public class PageMeshHighlightManager : MonoBehaviour
     public class PageHighlightConfig
     {
         [Header("Page Assignment")]
-        [Tooltip("The human-readable Page Number (1, 2, 3, etc.). Page 1 corresponds to index 0.")]
-        [Min(1)]
-        public int pageNumber = 1;
+        [Tooltip("The 0-based Page Index (0 = Page 1, 1 = Page 2, etc.).")]
+        [Min(0)]
+        public int pageIndex = 0;
 
         [Header("Target Mesh Entries")]
         [Tooltip("Configure individual MeshRenderers and their auto-highlight behavior.")]
         public List<MeshHighlightEntry> meshEntries = new List<MeshHighlightEntry>();
-
-        /// <summary>
-        /// Converts 1-based Page Number to 0-based Page Index.
-        /// </summary>
-        public int TargetPageIndex => Mathf.Max(0, pageNumber - 1);
     }
 
     [Header("Highlight Material")]
@@ -76,7 +71,7 @@ public class PageMeshHighlightManager : MonoBehaviour
     {
         foreach (PageHighlightConfig config in pageConfigs)
         {
-            bool isCurrentPage = (currentPageIndex == config.TargetPageIndex);
+            bool isCurrentPage = (currentPageIndex == config.pageIndex);
 
             foreach (MeshHighlightEntry entry in config.meshEntries)
             {
@@ -95,44 +90,44 @@ public class PageMeshHighlightManager : MonoBehaviour
     }
 
     // --- UNITY EVENT FRIENDLY SINGLE-INT FUNCTIONS ---
-    // You pass the Page Number (e.g. 26) in the Inspector input box!
+    // You pass the Page Index (e.g. 25 for Page 26) in the Inspector input box!
 
     /// <summary>
-    /// Turn ON highlight for Element 0 on the specified page number.
+    /// Turn ON highlight for Element 0 on the specified page index.
     /// </summary>
-    public void EnableElement0(int pageNumber) => EnableElementHighlight(pageNumber, 0);
+    public void EnableElement0(int pageIndex) => EnableElementHighlight(pageIndex, 0);
 
     /// <summary>
-    /// Turn OFF highlight for Element 0 on the specified page number.
+    /// Turn OFF highlight for Element 0 on the specified page index.
     /// </summary>
-    public void DisableElement0(int pageNumber) => DisableElementHighlight(pageNumber, 0);
+    public void DisableElement0(int pageIndex) => DisableElementHighlight(pageIndex, 0);
 
     /// <summary>
-    /// Turn ON highlight for Element 1 on the specified page number.
+    /// Turn ON highlight for Element 1 on the specified page index.
     /// </summary>
-    public void EnableElement1(int pageNumber) => EnableElementHighlight(pageNumber, 1);
+    public void EnableElement1(int pageIndex) => EnableElementHighlight(pageIndex, 1);
 
     /// <summary>
-    /// Turn OFF highlight for Element 1 on the specified page number.
+    /// Turn OFF highlight for Element 1 on the specified page index.
     /// </summary>
-    public void DisableElement1(int pageNumber) => DisableElementHighlight(pageNumber, 1);
+    public void DisableElement1(int pageIndex) => DisableElementHighlight(pageIndex, 1);
 
     /// <summary>
-    /// Turn ON highlight for Element 2 on the specified page number.
+    /// Turn ON highlight for Element 2 on the specified page index.
     /// </summary>
-    public void EnableElement2(int pageNumber) => EnableElementHighlight(pageNumber, 2);
+    public void EnableElement2(int pageIndex) => EnableElementHighlight(pageIndex, 2);
 
     /// <summary>
-    /// Turn OFF highlight for Element 2 on the specified page number.
+    /// Turn OFF highlight for Element 2 on the specified page index.
     /// </summary>
-    public void DisableElement2(int pageNumber) => DisableElementHighlight(pageNumber, 2);
+    public void DisableElement2(int pageIndex) => DisableElementHighlight(pageIndex, 2);
 
 
     // --- GENERAL C# / CODE FUNCTIONS ---
 
-    public void EnableElementHighlight(int pageNumber, int elementIndex)
+    public void EnableElementHighlight(int pageIndex, int elementIndex)
     {
-        PageHighlightConfig config = GetConfigByPageNumber(pageNumber);
+        PageHighlightConfig config = GetConfigByPageIndex(pageIndex);
         if (config != null && elementIndex >= 0 && elementIndex < config.meshEntries.Count)
         {
             MeshRenderer renderer = config.meshEntries[elementIndex].meshRenderer;
@@ -143,9 +138,9 @@ public class PageMeshHighlightManager : MonoBehaviour
         }
     }
 
-    public void DisableElementHighlight(int pageNumber, int elementIndex)
+    public void DisableElementHighlight(int pageIndex, int elementIndex)
     {
-        PageHighlightConfig config = GetConfigByPageNumber(pageNumber);
+        PageHighlightConfig config = GetConfigByPageIndex(pageIndex);
         if (config != null && elementIndex >= 0 && elementIndex < config.meshEntries.Count)
         {
             MeshRenderer renderer = config.meshEntries[elementIndex].meshRenderer;
@@ -156,9 +151,9 @@ public class PageMeshHighlightManager : MonoBehaviour
         }
     }
 
-    public void EnableAllHighlightsForPage(int pageNumber)
+    public void EnableAllHighlightsForPage(int pageIndex)
     {
-        PageHighlightConfig config = GetConfigByPageNumber(pageNumber);
+        PageHighlightConfig config = GetConfigByPageIndex(pageIndex);
         if (config == null || highlightMaterial == null) return;
 
         foreach (MeshHighlightEntry entry in config.meshEntries)
@@ -170,9 +165,9 @@ public class PageMeshHighlightManager : MonoBehaviour
         }
     }
 
-    public void DisableAllHighlightsForPage(int pageNumber)
+    public void DisableAllHighlightsForPage(int pageIndex)
     {
-        PageHighlightConfig config = GetConfigByPageNumber(pageNumber);
+        PageHighlightConfig config = GetConfigByPageIndex(pageIndex);
         if (config == null) return;
 
         foreach (MeshHighlightEntry entry in config.meshEntries)
@@ -214,8 +209,8 @@ public class PageMeshHighlightManager : MonoBehaviour
         }
     }
 
-    private PageHighlightConfig GetConfigByPageNumber(int pageNumber)
+    private PageHighlightConfig GetConfigByPageIndex(int pageIndex)
     {
-        return pageConfigs.Find(c => c.pageNumber == pageNumber);
+        return pageConfigs.Find(c => c.pageIndex == pageIndex);
     }
 }
